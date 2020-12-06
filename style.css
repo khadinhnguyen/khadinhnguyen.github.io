@@ -1,0 +1,249 @@
+/* Add any CSS you need to this file. */
+
+/* Google font
+font-family: 'Nerko One', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto&display=swap');
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+/* 
+html,
+body {
+  /* min-width: 1000px; */
+/* height: 100%; */
+/* overflow: hidden; */
+/* padding-bottom: 100px; */
+
+body {
+  height: 100%;
+  /* min-height: 100%; */
+
+  margin: 0;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+header {
+  /* height: 50px; */
+  /* position: sticky;
+  top: 0px; */
+  background-color: rgb(201, 29, 29);
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Nerko One', cursive;
+  font-size: 23px;
+}
+
+#menu {
+  min-width: 200px;
+  text-align: left;
+
+  /* border: 1px white solid; */
+}
+#menu nav {
+  /* width: 100%; */
+  /* min-width: 200px; */
+  /* margin: 0;
+  background-color: rgb(201, 29, 29); */
+}
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none; /*to remove hyperlink underscore*/
+  cursor: pointer;
+}
+
+/* #menu-title {
+  padding: 19px 0;
+} */
+/* #menu-header {
+  margin: 50px;
+} */
+a.menu-title {
+  color: white;
+  margin-top: 50px;
+  /* padding: 19px 0; */
+}
+#menu nav ul li ul {
+  padding: 8px 12px;
+  position: absolute;
+  /* top: 30; */
+  left: 0;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s;
+}
+
+#menu nav ul li:hover ul {
+  display: block;
+  padding: 30px 0;
+
+  width: 200px;
+  opacity: 1;
+  visibility: visible;
+}
+
+#menu nav ul li ul li {
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  padding: 20px;
+
+  border: 1px solid black;
+}
+
+#options-on-rightsite {
+  display: flex;
+  /* justify-content: right; */
+}
+
+#search-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+/* input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+} */
+
+#search-wrapper input {
+  flex: 1;
+  max-width: 500px;
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+#user-account,
+#user-cart,
+#user-contact {
+  width: 200px;
+  text-align: left;
+  /* padding: 10px 0; */
+}
+
+/* #user-cart {
+  width: 200px;
+  text-align: left;
+  /* padding: 10px 0; */
+
+ul,
+li {
+  list-style-type: none;
+}
+
+i {
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+main {
+  margin-top: 50px;
+  /* height: 100%; */
+  display: flex;
+}
+
+main nav {
+  min-width: 200px;
+  height: 100%;
+}
+
+main section {
+  /* flex: 1; */
+  /* height: 100%; */
+  width: 100%;
+  background-color: #f7f7f7f7;
+  margin-top: 10px;
+  margin-right: 0;
+  padding: 20px;
+  /* overflow: auto; */
+}
+
+#section {
+  /* padding-bottom: 500px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* .list-of-four-products {
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+.product-wrapper {
+  width: 250px;
+  margin: 15px;
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image p {
+  position: absolute;
+  color: red;
+  font-weight: 700;
+  bottom: 3px;
+  right: 6px;
+}
+
+.product-info h2 {
+  color: black;
+}
+
+.product-info h3 {
+  color: red;
+}
+
+/* footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: #30475e;
+  bottom: 0;
+  /* position: sticky;
+  bottom: 0; */
+/* width: 100%; */
+/* height: 100px; */
+/* overflow: auto; */
+/* margin-bottom: px; */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+#footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: space-around;
+  color: white;
+  background-color: #30475e;
+  bottom: 0;
+}
+
+#social-icons {
+  text-align: center;
+}
